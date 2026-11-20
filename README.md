@@ -1,4 +1,4 @@
-# cour.top — AI API 中转站
+# cour.top — AI 破甲API 中转站
 
 GPT / Claude / Grok / DeepSeek 四条线一个站搞定，香港节点，标准兼容接口。
 
