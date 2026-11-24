@@ -13,7 +13,9 @@ GPT / Claude / Grok / DeepSeek 四条线一个站搞定，香港节点，标准�
 | 产品线 | 倍率 | 说明 |
 | --- | ---: | --- |
 | GPT | 0.5 倍率 | 官方价一半 |
-| DeepSeek | 0.38 倍率 | |
+| GPT Luna | 0.3 倍率 | 轻量快速线 |
+| DeepSeek Flash | 0.38 倍率 | |
+| DeepSeek V4 | 0.43 倍率 | V4-Pro 所在分组 |
 | Grok | 0.28 倍率 | |
 | Claude | 站内可查 | 每个模型的价格在站内「模型广场」公开 |
 
@@ -21,10 +23,10 @@ GPT / Claude / Grok / DeepSeek 四条线一个站搞定，香港节点，标准�
 
 ## 支持的模型
 
-- GPT：gpt-6.1-sol（主力）、gpt-6.2-sol、gpt-6-sol、gpt-6-luna、gpt-5.4-mini
-- Claude：claude-sonnet-5、claude-opus-5-5、claude-haiku-4-5
-- Grok：grok-4.5、grok-4.7、grok-4.6、grok-4.3
-- DeepSeek：deepseek-v4-pro、deepseek-v4-flash
+- GPT：gpt-6.1-sol（主力）、gpt-6.2-sol、gpt-5.6-sol、gpt-6-luna、gpt-5.6-luna
+- Claude：claude-sonnet-5、claude-sonnet-5-5、claude-opus-5-5
+- Grok：grok-4.5
+- DeepSeek：deepseek-v4-pro、deepseek-v4.1-flash
 
 ## 快速开始
 
@@ -32,7 +34,7 @@ GPT / Claude / Grok / DeepSeek 四条线一个站搞定，香港节点，标准�
 2. 在「API 密钥」页按你要用的分组创建密钥（不同分组的密钥不能混用）
 3. 把 API 地址和密钥填到你的客户端里，模型 ID 照教程里的总表填
 
-API 地址：https://api.cour.top
+API 地址：https://cour.top
 
 ## 支持的客户端
 
@@ -42,8 +44,8 @@ https://cour.top/guide/
 
 ## 说明
 
-- Claude 这条线是双上游互备，一家出问题自动切到另一家，不用手动换地址
-- 常见问题：401 一般是密钥填错或密钥与模型不属于同一分组；404 / 模型不存在一般是模型 ID 填错，照教程末尾的总表核对即可
+- Claude 分 Sonnet / Opus 两个分组，两个分组的密钥不能混用
+- 常见问题：401 一般是密钥填错或密钥与模型不属于同一分组；404 / 模型不存在一般是模型 ID 填错，或用了别的分组的密钥，照教程末尾的总表核对即可
 - 有问题可以在本仓库提 Issue，或加 QQ 群 1128765545
 
 ---
@@ -52,7 +54,7 @@ https://cour.top/guide/
 
 cour.top is an AI API gateway (Hong Kong node) offering GPT, Claude, Grok and DeepSeek models through one OpenAI-compatible endpoint.
 
-- GPT at 0.5x official pricing, DeepSeek 0.38x, Grok 0.28x; Claude pricing is listed publicly on the site's model plaza
+- GPT at 0.5x official pricing (Luna line 0.3x), DeepSeek from 0.38x, Grok 0.28x; Claude pricing is listed publicly on the site's model plaza
 - Top up 1:1 (pay ¥1, get $1 of credit), pay-as-you-go, balance never expires
 - New accounts get ¥5 of free trial credit on signup
 - Works with Codex, Claude Code, Cursor, Cherry Studio, Chatbox and any OpenAI-compatible client
